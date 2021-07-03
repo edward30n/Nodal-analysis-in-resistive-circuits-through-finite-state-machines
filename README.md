@@ -7,7 +7,9 @@ Purpose:
    With this matrix obtained, the Gaussian elimination and the Back Substitution carried out by finite states continue to be realized by which the value of the voltage at the node and the time it takes to run the program are returned.
 
 Files: You will find 3 files.
-  a) proyecto2: This file has 17 files. Some of them are .h, others .txt, 1 is a read me in spanish, and the last one is the main code "electricalMaze.c".
+
+
+    a) proyecto2: This file has 17 files. Some of them are .h, others .txt, 1 is a read me in spanish, and the last one is the main code "electricalMaze.c".
         * The .txt named as maze are the files wich has the information of a netlist, some are bigger than others. If you have your own netlist you will have to remember that this code is made to work only with resistors and current sources. The resistors have to start with a R  an the current sorces has to start with an I. the second column has the number of the node on the positive terminal and the third one has the negative terminal of the object of the line. Finallt, the last column has the value of the resistence or  current involved.
         * The .h files are libraries made by my group and I to simplyfy the main code, each one of them are correcly commented for a better understanding.
         * The electricalMaze.c is the main code witch all the libraries are called and used. if you want to try and see how long it takes your pc to process the bigger maze files you can follow this steps:
@@ -26,9 +28,9 @@ Files: You will find 3 files.
                   h) "maze7.txt"
                   i) "maze8.txt"
             6) Wait for the code to execute. Once finished, you will get the results of the voltage at each node, as well as the time it took for your computer to execute that code.
-  b) proyecto2SinMaquina: this file contains a code with less organisation than the first one and also doesn't use a finite state machine. to run it you have to follow the same steps as the previous one.
+    b) proyecto2SinMaquina: this file contains a code with less organisation than the first one and also doesn't use a finite state machine. to run it you have to follow the same steps as the previous one.
   
-  c) Informe.pdf: This file has the report of all the proyect (in spanish) with the next points:
+    c) Informe.pdf: This file has the report of all the proyect (in spanish) with the next points:
         1)  Abstract
         2)  Introduction
         3)  Credits
